@@ -101,13 +101,11 @@ components:
     User:
       description: A user.
       type: object
-      example: |
-        {
-          "email": "some.one@email.com",
-          "password": "s0m3s3cr3tp455w0rd",
-          "firstName": "Some",
-          "lastName": "One"
-        }
+      example:
+        email: some.one@email.com
+        password: s0m3s3cr3tp455w0rd
+        firstName: Some
+        lastName: One
       properties:
         email:
           description: The email of the user.
