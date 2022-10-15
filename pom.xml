@@ -65,8 +65,8 @@
 								${project.basedir}/openapi-spec.yml
 							</inputSpec>
 							<generatorName>spring</generatorName>
-							<apiPackage>nz.co.vector.usersapi.api</apiPackage>
-							<modelPackage>nz.co.vector.usersapi.model</modelPackage>
+							<apiPackage>nz.co.vector.users.api</apiPackage>
+							<modelPackage>nz.co.vector.users.model</modelPackage>
 							<supportingFilesToGenerate>ApiUtil.java</supportingFilesToGenerate>
 							<configOptions>
 								<delegatePattern>true</delegatePattern>
