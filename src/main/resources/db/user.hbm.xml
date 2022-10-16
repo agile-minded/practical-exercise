@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "https://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="nz.co.vector.users.model">
+    <class name="User" table="users" schema="vector">
+        <id name="email" type="string">
+            <column name="email" not-null="true" />
+        </id>
+        <property name="password" type="string">
+            <column name="password" not-null="true" />
+        </property>
+        <property name="firstName" type="string">
+            <column name="firstname" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="lastname" />
+        </property>
+    </class>
+
+</hibernate-mapping>
