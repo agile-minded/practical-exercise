@@ -1,3 +1,14 @@
+Implementation
+==============
+
+The API server is available at http://localhost:8080.
+
+I used the API-first approach and OpenApi maven plugin to generate the code, and H2 in-memory database to store the user data.
+I used the delegation pattern to decouple the API implementation from the generated code so that API code can be regenerated independently.
+
+The example string in openapi-spec.yml was changed from JSON to YAML to fix the code generation by the plugin.
+
+
 Practical Exercise
 ==================
 
